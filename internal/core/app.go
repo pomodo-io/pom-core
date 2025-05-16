@@ -8,11 +8,6 @@ import (
     _ "github.com/polyzuri/pom-core/docs"
 )
 
-// @title Pomodo API
-// @version 1.0
-// @description This is a sample server for Pomodo API.
-// @host localhost:8080
-// @BasePath /
 // @schemes http
 // @produce application/json
 // @consume application/json

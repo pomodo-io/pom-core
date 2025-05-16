@@ -2,9 +2,9 @@ basePath: /
 host: localhost:8080
 info:
   contact: {}
-  description: This is a sample server for Pomodo API.
-  title: Pomodo API
-  version: "1.0"
+  description: API documentation for Pomodo.io pom-core.
+  title: Pomodo.io-API
+  version: 0.0.1
 paths:
   /:
     get:
