@@ -1,0 +1,24 @@
+basePath: /
+host: localhost:8080
+info:
+  contact: {}
+  description: API documentation for Pomodo.io pom-core.
+  title: Pomodo.io-API
+  version: 0.0.1
+paths:
+  /:
+    get:
+      consumes:
+      - '*/*'
+      description: Returns a hello world message
+      produces:
+      - text/plain
+      responses:
+        "200":
+          description: Hello, World!
+          schema:
+            type: string
+      summary: Hello World endpoint
+      tags:
+      - hello
+swagger: "2.0"
